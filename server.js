@@ -24,7 +24,7 @@ const sonnection_url =
 mongoose.connect(sonnection_url, {
   useCreateIndex: true,
   useNewUrlParser: true,
-  useUnifiedTopology: true,
+  //   useUnifiedTopology: true,
 });
 
 const db = mongoose.connection;
